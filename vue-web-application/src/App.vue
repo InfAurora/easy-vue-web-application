@@ -26,7 +26,8 @@ export default {
       }
     },
     toggleReminder(id) {
-      this.tasks = this.tasks.map((task) => task.id === id ? {...task, reminder: !task.reminder} : task)
+      this.tasks = this.tasks.map((task) =>
+        task.id === id ? {...task, reminder: !task.reminder} : task)
     }
   },
   created() {
