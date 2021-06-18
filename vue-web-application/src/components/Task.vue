@@ -26,7 +26,7 @@ export default {
 	padding: 10px 20px
 	cursor: pointer
 	&.reminder
-		border-left: 5px solid green
+		border-left: 5px solid blue
 	h3
 		display: flex
 		align-items: center
